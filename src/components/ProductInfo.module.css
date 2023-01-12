@@ -1,0 +1,42 @@
+* {
+    color: var(--purple-dark);
+}
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.code {
+    font-size: .625rem;
+    opacity: 75%;
+}
+
+.title {
+    margin-top: .75rem;
+    font-size: 2rem;
+    font-family: 'Crimson Pro';
+}
+
+.price {
+    margin-top: .75rem;
+    font-size: 1rem;
+    opacity: 75%;
+}
+
+.button {
+    margin-top: 1.25rem;
+    padding: 1rem;
+    border-radius: 999px;
+    background: transparent;
+    height: 2rem;
+    font-size: 0.75rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
